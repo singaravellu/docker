@@ -2,3 +2,5 @@ version: '3'
 services: 
       web:
         -image:tomcat
+      ports: 
+        -"8080:8080"

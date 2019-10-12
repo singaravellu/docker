@@ -1,8 +1,4 @@
 version: '3'
 services: 
   webapp:
-    -image:tmocat
-  ports: 
-    -"8080:8080"
-  database:
-    -image:mysql
+    -image:tomcat
